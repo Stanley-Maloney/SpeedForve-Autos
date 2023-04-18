@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SpeedForce Autos</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <!-- Navegação -->
+  <body>
+    <nav
+      class="navbar col-12 navbar-expand-lg navbar-dark bg-dark"
+      style="z-index: 999"
+    >
+      <div class="container-fluid col-11 m-auto">
+        <a class="navbar-brand" href="#">SpeedForce Autos</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#carouselExampleCaptions"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Produtos">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Descrição">Descrição</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Home -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner col-10">
+        <div class="carousel-item active">
+          <img src="assents/img1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item">
+          <img src="assents/img2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item">
+          <img src="assents/img3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <!-- Produto1 -->
+    </div>
+    <section id="Produtos">
+      <div class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
+        <div class="col">
+          <div class="card">
+            <img src="assents/interna1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body d-grid gap-3">
+              <h5 class="card-title p-2 bg-dark-subtle border">
+                Chevrolet Corvette
+              </h5>
+              <p class="card-text p-2 bg-light border">
+                O Chevrolet Corvette é um carro esportivo icônico produzido pela
+                fabricante de automóveis americana Chevrolet, uma divisão da
+                General Motors. Introduzido pela primeira vez em 1953, o
+                Corvette é conhecido por sua impressionante performance, design
+                atraente e tradição como um dos carros esportivos mais
+                emblemáticos dos Estados Unidos.
+              </p>
+              <br />
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#2"
+              >
+                Veja mais
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="2"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Especificações
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Fechar"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Com um peso de 1560 kgs, o Corvette C3 Stingray Coupe
+                        1968 427 V8 Turbo-Jet 400HP 4-speed está equipado com um
+                        motor V de 8 cilindros atmosférico, a Gasolina, com o
+                        código de motor GM Chevrolet Big-Block V8 427 L68. Este
+                        motor produz uma potência máxima de 405 CV às 5400
+                        rotações e um torque máximo de 624.0 Nm às 3600
+                        rotações. A potência é transmitida à estrada através de
+                        um câmbio Manual de 4 marchas, e o tipo de tração é
+                        traseira (RWD)..
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Produto2 -->
+        <div class="col">
+          <div class="card">
+            <img
+              src="assents/interna2.jpg"
+              class="card-img-top img2"
+              alt="..."
+            />
+            <div class="card-body d-grid gap-3">
+              <h5 class="card-title p-2 bg-dark-subtle border">Ford Mustang</h5>
+              <p class="card-text p-2 bg-light border">
+                O Ford Mustang é um carro esportivo icônico produzido pela Ford,
+                uma montadora automobilística americana. Ele foi lançado pela
+                primeira vez em 1964 e é conhecido por seu estilo agressivo,
+                desempenho emocionante e valor cultural como um ícone
+                automotivo. O Mustang é famoso por seu design esportivo e
+                lendário, com uma carroceria esculpida, uma grade dianteira
+                distintiva e linhas musculosas que lhe conferem uma aparência
+                única e inconfundível. O Mustang também é conhecido por suas
+                opções de carroceria, incluindo cupê e conversível.
+              </p>
+              <br />
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Veja mais
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Especificações
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Fechar"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Com consumo médio de 9.3 litros/100km, 0 aos 100 km/h em
+                      9.3 segundos, velocidade máxima de 180 km/h, um peso de
+                      1390 kgs, o Mustang IV 3.8 V6 está equipado com um motor V
+                      de 6 cilindros atmosférico, a Gasolina
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Produto3 -->
+        <div class="col">
+          <div class="card">
+            <img src="assents/interior3.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body d-grid gap-3">
+              <h5 class="card-title p-2 bg-dark-subtle border">
+                Chevrolet Camaro
+              </h5>
+              <p class="card-text p-2 bg-light border">
+                O Chevrolet Camaro é um carro esportivo produzido pela
+                Chevrolet, uma divisão da General Motors. Ele foi lançado pela
+                primeira vez em 1966 e é conhecido por seu design agressivo,
+                desempenho poderoso e desempenho esportivo. O Camaro é conhecido
+                por seu estilo distintivo e musculoso, com linhas aerodinâmicas
+                e uma postura baixa e larga. Ele apresenta uma grade dianteira
+                marcante, faróis afilados e uma silhueta esportiva que o torna.
+              </p>
+
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#3"
+              >
+                Veja mais
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="3"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Especificações
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Fechar"
+                      ></button>
+                    </div>
+                    <div class="modal-footer">
+                      <div class="modal-body">
+                        Com velocidade máxima de 190 km/h, um peso de 1400 kgs,
+                        o Camaro 3rd-Gen 3.1 está equipado com um motor V de 6
+                        cilindros atmosférico, a Gasolina. Este motor produz uma
+                        potência máxima de 142 CV às 4400 rotações e um torque
+                        máximo de 244.0 Nm às 4400 rotações. A potência é
+                        transmitida à estrada através de um câmbio Manual de 5
+                        marchas, e o tipo de tração é traseira (RWD).
+                      </div>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div>
+      <!-- Descrição da empresa -->
+      <div id="Descrição">
+        <footer>
+          <br />
+          <h2 class="p-2 bg-dark-subtle border">Descrição</h2>
+          <p class="text-body p-2 bg-light border">
+            Bem-vindo à nossa empresa de demonstração de carros! Nós nos
+            dedicamos a fornecer aos nossos clientes a melhor experiência
+            possível ao escolher um carro novo. Com nossa vasta seleção de
+            modelos, estamos confiantes de que temos o veículo perfeito para
+            você. Nosso objetivo é ajudá-lo a encontrar o carro dos seus sonhos,
+            sem a pressão de um vendedor. Em vez disso, nossa equipe
+            especializada está aqui para orientá-lo durante todo o processo,
+            oferecendo test drives e demonstrações detalhadas de cada modelo.
+            Nós valorizamos a transparência e honestidade em nossas interações
+            com os clientes. Por isso, nossos profissionais estão sempre prontos
+            para responder a todas as suas perguntas e fornecer informações
+            precisas e imparciais sobre cada veículo. Além disso, nos esforçamos
+            para tornar a experiência de compra de carros mais conveniente para
+            nossos clientes. Oferecemos uma variedade de serviços, como
+            agendamento de test drives online e entrega de carros em sua casa ou
+            escritório. Na nossa empresa, a satisfação do cliente é nossa
+            prioridade número um. Estamos sempre procurando maneiras de melhorar
+            nossos serviços e garantir que cada cliente tenha uma experiência
+            excepcional ao escolher seu carro novo. Venha nos visitar e
+            experimente a diferença que fazemos!
+          </p>
+        </footer>
+      </div>
+    </div>
+    <!-- botão do whatsapp -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <!-- css do botão do whatsapp -->
+    <style>
+      .whatsapp-link {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 1px 1px 2px #888;
+        z-index: 1000;
+      }
+
+      .fa-whatsapp {
+        margin-top: 16px;
+      }
+    </style>
+
+    <div class="col-11 m-auto">
+      <!-- Link do meu whatsapp,como api para não da conflito caso seja aberto pelo computador -->
+      <a
+        class="whatsapp-link"
+        href="https://api.whatsapp.com/send?phone=69999058594"
+        target="_blank"
+      >
+        <i class="fa-brands fa-whatsapp"></i
+      ></a>
+    </div>
+    <br />
+    <br />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <br />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Importação da função de navegação -->
+    <script src="script.js"></script>
+  </body>
+</html>
